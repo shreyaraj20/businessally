@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Business Ally</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="ally.css">
+</head>
+
+<body>
+
+		<header>
+				<div>
+				<img src="logo.jpg" alt="logo" class="logo">
+				</div>
+				<nav>
+					<ul class="nav-area">
+						<li ><a href="">Home</a></li>
+						<li><a href="">Who we are</a></li>
+						<li><a href="">What we do</a></li>
+						<li><a href="">Services</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</nav>
+				<button class="btn-area">Login</button>
+		</header>
+		 <div class="wrapper">
+				<div><h1>Bussiness <span>Ally</span></h1></div>
+				<h3>Bringing Business To <span> You And You</span> To Business</h3>
+				<button class="button2">Know More</button>
+		 </div>
+		   
+
+<div class="container">
+   <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="2.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="3.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="4.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="5.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+     
+  </div>
+     
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+			<h2 class="heading">What we Do?</h2>
+				<h2 class="subheading">WE  C.O.N.N.E.C.T  BUSSINESS</h2>
+				<hr>
+			<div>
+				
+				<div class="section1">
+				     <img src="7.png"  class="connect1">
+					 <img src="8.png" class="connect2">
+				</div>
+				 
+				<button class="button3">Know More</button>
+		    </div>
+
+
+			<div class="section2">
+			<h2 class="heading1">Testimonials</h2>
+			<hr class="line2">
+					 <img src="10.png"  class="connect3">
+					 <p class="para1">Business ally core team consist of diligent and experienced professionals 
+					 determined to provide the best client experience and add values to the community.
+					 Their recently launched digital product will definitely transform the way we do 
+					 business.My collaboration with them at various different levels has only shown 
+					 me the true values of joining hands with the right partner.</p>
+					 <h4 class="name1">Mr. Navneet Sahay</h4>
+					 <h4 class="profile">Founder-Spares-Pazari</h4>
+					 <img src="12.png" class="arrow">
+					 <img src="11.png" class="connect4">
+					 <h4 class="name2">Mr. Naresh Verma</h4>
+					 <h4 class="profile2">MD United Engineers</h4>
+			</div>
+
+		<div>
+				<div class="lastsection">
+				<img src="13.jpg" class="connect5">
+				<div class="form-popup" id="myForm">
+						<form action="/action_page.php" class="form-container">
+						 
+						 <label for="name" class="label1"><b>Name</b></label>
+						<input type="text" placeholder="Enter name" name="email" required>
+						 
+						<label for="email" class="label2"><b>Email</b></label>
+						<input type="text" placeholder="Enter Email" name="email" required>
+
+						<label for="number" class="label3"><b>Mobile Number</b></label>
+						<input type="number" placeholder="Enter Number" name="number" required>
+						
+						<label for="subject" class="label4"><b>Subject</b></label>
+						<input type="text" placeholder="Enter Subject" name="subject" required>
+						
+						<label for="message-box" class="label5"><b>Message</b></label>
+						<input type="text" placeholder="Enter Email" name="email" required>
+
+
+						<button type="submit" class="btn">Login</button>
+						 
+  </form>
+</div>
+				</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+		 
+		  
+   
+</body>
+
+</html>

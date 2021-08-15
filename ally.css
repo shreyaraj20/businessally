@@ -1,0 +1,623 @@
+  *{
+	  box-sizing:border-box;
+	  margin:0;
+	  padding:0;
+  }
+  
+  body{
+	 
+	  -webkit-background-size:cover;
+	  backgrund-size:cover;
+	  background-position:center center;
+	  height:100vh;
+	 
+  }
+  
+  a{
+	  text-decoration:none;
+  }
+  
+  header{
+	  display:-webkit-flex;
+	  display:-moz-flex;
+	  display:-ms-flex;
+	  display:-o-flex;
+	  display:flex;
+	  justify-content:space-between ;
+	  padding:30px 70px;
+  }
+  
+  .logo{
+	  cursor:pointer;
+	  position:relative;
+	  top:-15%;
+  }
+  .nav-area{
+	  list-style:none;
+  }
+  .nav-area li{
+	  display:inline-block;
+	  padding:0 18px;
+	  
+  }
+  .nav-area li a{
+	  transition: .3s;
+	  color:#888888;
+	  font-family:Montserrat;
+	  font-weight:400;
+	  font-size:16px;
+	  
+  }
+  
+  .home{
+	  color:#0D2F82;
+  }
+  
+  .nav-area li a:hover{
+	  color:#d22938
+  }
+  
+  .btn-area{
+	  cursor:pointer;
+	  color:white;
+	  font-size:16px;
+	  letter-spacing:uppercase;
+	  padding:10px 30px;
+	  border-radius:4px;
+	  background:#0D2F82;
+	  border:none;
+	  position:relative;
+	  top:-10px;
+  }
+  
+
+  .wrapper{  
+       background-image:url("1.jpg");
+	  height:80vh;
+	  width: 100%;
+	  position:relative;
+	  top:-4%;
+  }
+  
+  h1{
+	 position: absolute;
+width: 593px;
+height: 83px;
+left: 285px;
+top: 120px;
+
+font-family: Mitr;
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 113px;
+letter-spacing: 0.05em;
+
+color: #0D2F82;
+
+  }
+  
+  h1 span{
+	  color:white;
+  }
+  h3{
+	  position: absolute;
+	  width: 500.82px;
+height: 147.72px;
+left: 285.57px;
+top: 220.86px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 40px;
+/* or 167% */
+
+letter-spacing: 0.05em;
+
+color: #0D2F82;
+  }
+
+
+h3 span{
+	  color:white;
+  }
+  
+.button2{
+	
+position: absolute;
+width: 120px;
+height: 45px;
+left: 636.57px;
+top: 300px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+
+.button2 button{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 50px;
+/* or 312% */
+
+letter-spacing: 0.05em;
+
+color: #0D2F82;
+}
+
+.container {
+position: absolute;
+width: 1000.6px;
+height: 174.57px;
+left: 200.4px;
+top: 550.43px;
+
+background: #F2F2F2;
+border-radius: 4px;
+}
+
+ 
+.mySlides {
+  display: none;
+}
+
+ 
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color:#0D2F82;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color:white ;
+  color:#0D2F82;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+ .row{
+	  position:absolute;
+  top:35%;
+   left:5%;
+ }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 22%;
+  
+ 
+  margin:1%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.section1{
+	position: absolute;
+width: 900.91px;
+height: 500px;
+left:300.21px;
+top: 1000px;
+display:inline-block;
+background: linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%);
+border-radius: 4px;
+}
+
+.connect1{
+	position: absolute;
+width: 450px;
+height: 500px;
+left: -20%;
+   
+}
+.connect2{
+	position:relative;
+width: 400px;
+height: 380px;
+top:15%;
+left: 40%;
+   
+}
+
+.heading{
+	position: absolute;
+width: 275px;
+height: 50px;
+left: 125.32px;
+top: 870.97px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 50px;
+/* identical to box height, or 167% */
+
+letter-spacing: 0.05em;
+
+color: #474646;
+}
+.subheading{
+	
+position: absolute;
+left: 128.81px;
+top: 910px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 50px;
+letter-spacing: 0.05em;
+
+color: #0D2F82;
+}
+
+hr{
+	position: absolute;
+width: 106.1px;
+height: 0px;
+left: 160.72px;
+top: 960.52px;
+border: 1px solid #0D2F82;
+}
+
+.button3{
+	position: absolute;
+width: 150px;
+height: 49.47px;
+left: 280px;
+top: 1350.53px;
+background: #E2252B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+color:white;
+}
+
+.section2{
+  background-image:url("9.jpg");
+	  height:100vh;
+	  width: 100%;
+	  position:relative;
+	  top:950px;
+}
+.connect3{
+	position: absolute;
+width: 226.59px;
+height: 317.1px;
+left: 211.71px;
+top: 130.13px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.heading1{
+	position: absolute;
+width: 273.02px;
+height: 50px;
+left: 122px;
+top: 20px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 50px;
+/* identical to box height, or 167% */
+
+letter-spacing: 0.05em;
+
+color: #0D2F82;
+}
+
+.line2{
+	position: absolute;
+width: 129.52px;
+height: 0px;
+left: 124.04px;
+top: 70.98px;
+border: 1px solid #0D2F82;
+
+}
+
+.para1{
+	position: absolute;
+width: 423.89px;
+height: 137.45px;
+left: 604.08px;
+top: 230.47px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+}
+
+.name1{
+	position: absolute;
+width: 177.17px;
+height: 43.85px;
+left: 603.73px;
+top: 375.67px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 50px;
+/* or 312% */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+.profile{
+	position: absolute;
+width: 199.84px;
+height: 43.85px;
+left: 603.31px;
+top: 400.62px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 50px;
+/* or 312% */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+}
+.connect4{
+	position: absolute;
+left: 85.92%;
+right: 18.01%;
+top: 48.55%;
+bottom: 36.2%;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.arrow{
+	position: absolute;
+    left: 80.43%;
+right: 22.21%;
+top: 50.87%;
+bottom: 40.13%;
+ 
+box-sizing: border-box;
+}
+
+.name2{
+	position: absolute;
+left: 89.89%;
+ 
+top: 46.74%;
+bottom: 40.59%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 50px;
+/* or 455% */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+}
+.profile2{
+	position: absolute;
+left: 89.91%;
+ 
+top: 49.36%;
+bottom: 37.9%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 50px;
+/* or 556% */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+.connect5{
+	position: absolute;
+width: 600.51px;
+height: 600px;
+left: 0.49px;
+background: rgba(255, 255, 255, 0.75);
+top:-5px;
+
+}
+
+.lastsection{	
+position:absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 2115.52px;
+
+background: #F6F6F6;
+}
+
+.form-popup {
+ position: absolute;
+width: 500px;
+height: 500.31px;
+left: 730px;
+top: 40px;
+background: #E4ECFF;
+border-radius: 4px;
+}
+ 
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=number] {
+  position:relative;
+  top: 50px;
+  left:15%;
+  width: 60%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #ffffff;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.label1{
+	position: absolute;
+    left:20px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+	text-align: center;
+	font-size:16px;
+	color: #000000;
+}
+.label2{
+	position: absolute;
+    left:20px;
+    top: 110px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+text-align: center;
+font-size:16px;
+color: #000000;
+}
+.label3{
+	position: absolute;
+    left:20px;
+    top: 180px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+text-align: center;
+font-size:16px;
+color: #000000;
+}
+
+.label4{
+	position: absolute;
+    left:20px;
+    top: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+text-align: center;
+font-size:16px;
+color: #000000;
+}
+
+
+.label5{
+	position: absolute;
+    left:20px;
+    top: 320px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+text-align: center;
+font-size:16px;
+color: #000000;
+}
